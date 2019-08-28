@@ -10,6 +10,8 @@
     <modules>
         <module>nacos-dubbo-provider</module>
         <module>nacos-dubbo-consumer</module>
+        <module>nacos-dubbo-dto</module>
+        <module>nacos-dubbo-service</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -32,16 +34,28 @@
         </dependency>
 
         <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-config-spring-boot-starter</artifactId>
+            <version>0.2.1</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo-registry-nacos</artifactId>
             <version>0.0.1</version>
         </dependency>
 
-
+        
         <dependency>
             <groupId>com.alibaba.spring</groupId>
             <artifactId>spring-context-support</artifactId>
             <version>1.0.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
         </dependency>
     </dependencies>
 
