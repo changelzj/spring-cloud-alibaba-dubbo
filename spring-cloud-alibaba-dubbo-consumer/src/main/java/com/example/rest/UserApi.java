@@ -10,7 +10,7 @@ import com.example.servlce.UserService;
 @RestController
 public class UserApi {
     
-    @Reference
+    @Reference(version = "1.0.0")
     private UserService userService;
     
     @RequestMapping("get")
