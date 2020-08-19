@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 
 @Service(version = "1.0.0")
 public class UserServiceImpl implements UserService {
-    @Value("${dubbo.protocol.port}")
+    @Value("${server.port}")
     private String port;
     
     @Override
