@@ -9,9 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-alibaba-dubbo-dto</artifactId>
+    <artifactId>spring-cloud-alibaba-dubbo-common</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
